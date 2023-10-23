@@ -1,4 +1,4 @@
-#My compilation of front-end-mentor challenges. 
+# My compilation of front-end-mentor challenges. 
 
-# Completed challenges: 
-## 1. QR-Code Component
+## Completed challenges: 
+### 1. QR-Code Component
