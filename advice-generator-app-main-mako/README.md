@@ -7,7 +7,7 @@
   - [What I learned](#what-i-learned)
 
 ## Overview
-Made this app with just HTML CSS and JS, not too crazy, but it was fun to do. Learned about how to use an API but need a lot more to learn about it. This was a Front End Mentor project, meaning there are thousands of solutions for this on the internet, this is mine, and is probably not the most optimal. 
+Made this app with just HTML CSS and JS, nothing crazy, but it was fun to do. Learned about how to use an API but need a lot more to learn about it. This was a Front End Mentor project, meaning there are thousands of solutions for this on the internet, this is mine, and is probably not the most optimal. 
 
 ### The challenge
 Users should be able to:
