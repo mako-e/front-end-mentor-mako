@@ -20,7 +20,7 @@ Users should be able to:
 ![](./screenshot.jpg)
 
 ## My process
-- I did it with mobile-first principles, atleast from what I know, because it uses less CSS. I always start out with HTML, put the classes in, and then configure the css for the classes and html respectively. As for the css, I usually build my :root first with variables that will be used a lot, but for this one it's mostly just colors. 
+I did it with mobile-first principles, atleast from what I know, because it uses less CSS. I always start out with HTML, put the classes in, and then configure the css for the classes and html respectively. As for the css, I usually build my :root first with variables that will be used a lot, but for this one it's mostly just colors. 
   
 ### Built with
 - Flex
@@ -28,4 +28,4 @@ Users should be able to:
 - Await API fetching
 
 ### What I learned
-- I mostly learned about how to fetch API data. I am still a bit confused by the general structure but I'm sure I'll get the pattern once I get used to it.
+I mostly learned about how to fetch API data. I am still a bit confused by the general structure but I'm sure I'll get the pattern once I get used to it.
