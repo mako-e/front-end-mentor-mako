@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Manrope:wght@500;800&display=swap);
+*,
+*::after, 
+*::before{
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+:root{
+    --c-bg: hsl(218, 23%, 16%);
+    --c-container: hsl(217, 19%, 24%);
+    --c-lcyan: hsl(193, 38%, 86%);
+    --c-neongreen: hsl(150, 100%, 66%);
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--c-bg);
+}
+.main-container{
+    background-color: var(--c-container);
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 450rem;
+    text-align: center;
+}
+.main-container h5{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: var(--c-neongreen);
+}
+.main-container p{
+    color: var(--c-lcyan);
+    font-size: 28px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--c-neongreen);
+    align-items: center;
+    border-radius: 50%;
+    border-style: none;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    margin: auto;
+}
+.btn:hover{
+    box-shadow: 0px 0px 15px 1px var(--c-neongreen);
+    transition: ease-in 0.3s;
+}
+.divider{
+    text-align: center;
+}
+.divider-desktop{
+    display: none;
+}
+
+/* Media Queries */
+@media (min-width: 600px){
+    .main-container{
+        max-width: 35rem;
+    }
+    .divider-desktop{
+        display: block;
+    }
+    .divider-mobile{
+        display: none;
+    }
+}
+@media (max-width: 360px){
+    .main-container{
+        padding: 1rem;
+    }
+    .main-container p{
+        font-size: 18px;
+    }
+}
