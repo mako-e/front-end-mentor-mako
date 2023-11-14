@@ -22,6 +22,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
+    margin: 0;
     background-color: var(--main-bg);
     font-family: 'Outfit', sans-serif;
     min-height: 100vh;
@@ -33,15 +34,46 @@ body{
     margin-bottom: 20px;
     padding: 1.2rem;
 }
+.hover-img{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 99%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 10px;
+}
+.img{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
 
 .img img{
     border-radius: 10px;
     width: 100%;
+    background: var(--c-cyan);
+}
+.hover-img:hover{
+    transition: ease-in 0.2s;
+    opacity: 1;
+    background-color: rgba(0, 255, 255, 0.384);
+    cursor: pointer
 }
 .title h1{
     color: var(--white);
     font-weight: 600;
     font-size: 20px;
+}
+.title h1:hover{
+    color: var(--c-cyan);
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
 }
 .content p{
     color: var(--c-softblue);
@@ -50,6 +82,7 @@ body{
 .divider{
     border-bottom: 2px;
 }
+
 .price{
     display: flex;
     align-items: center;
@@ -86,9 +119,14 @@ body{
     font-weight: 200;
     margin-top: 15px;
 }
-.creator b{
+.creator a{
     color: white;
     font-weight: 200;
+    text-decoration: none;
+}
+.creator a:hover{
+    color: var(--c-cyan);
+    transition: 0.4s;
 }
 .creator img{
     width: 25px;
