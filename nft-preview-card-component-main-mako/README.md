@@ -1,8 +1,7 @@
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
+- [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
