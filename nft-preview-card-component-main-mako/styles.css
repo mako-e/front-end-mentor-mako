@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+:root{
+    --c-softblue: hsl(215, 51%, 70%);
+    --c-cyan: hsl(178, 100%, 50%);
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line-color: hsl(215, 32%, 27%);
+    --white:  hsl(0, 0%, 100%);
+    --p-fsize: 18px;
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: var(--main-bg);
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+}
+.card{
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    max-width: 20rem;
+    margin-bottom: 20px;
+    padding: 1.2rem;
+}
+
+.img img{
+    border-radius: 10px;
+    width: 100%;
+}
+.title h1{
+    color: var(--white);
+    font-weight: 600;
+    font-size: 20px;
+}
+.content p{
+    color: var(--c-softblue);
+    line-height: 1.5rem;
+}
+.divider{
+    border-bottom: 2px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.price .eth{
+    color: var(--c-cyan);
+    margin-right: auto;
+}
+.price .time{
+    color: hsl(215, 51%, 70%);
+}
+.price svg{
+    margin: 0 0.5rem 0 0;
+}
+.divider{
+    border: solid;
+    border-width: thin;
+    color: var(--line-color);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: var(--c-softblue);
+}
+.attribution a { 
+    color: var(--c-cyan); 
+}
+
+.creator{
+    display: flex;
+    align-items: center;
+    color: var(--c-softblue);
+    font-weight: 200;
+    margin-top: 15px;
+}
+.creator b{
+    color: white;
+    font-weight: 200;
+}
+.creator img{
+    width: 25px;
+    height: 25px;
+    margin-right: 1rem;
+    border: solid;
+    border-radius: 50%;
+    border-width: thin;
+    color: white;
+}
