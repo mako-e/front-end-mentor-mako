@@ -4,3 +4,4 @@
 ### 1. [QR-Code Component](https://github.com/mako-e/front-end-mentor-mako/tree/main/qr-code-component-mako)
 ### 2. [Newsletter Sign-up Form (with JS)](https://github.com/mako-e/front-end-mentor-mako/tree/main/newsletter-mako)
 ### 3. [Advice Generator Application](https://github.com/mako-e/front-end-mentor-mako/tree/main/advice-generator-app-main-mako)
+### 4. [NFT Preview Card Component](https://github.com/mako-e/front-end-mentor-mako/tree/main/nft-preview-card-component-main-mako)
